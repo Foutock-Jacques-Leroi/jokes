@@ -9,7 +9,7 @@ import { toast } from 'react-toastify'
 function App() {
   const [person, setPerson] = useState([])
   const [deleted, setDeleted] = useState(true)
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
 
 
